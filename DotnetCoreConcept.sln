@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{D07A6FA9-B814-4983-ABED-8E5334CF2C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware", "Middleware\Middleware.csproj", "{D07A6FA9-B814-4983-ABED-8E5334CF2C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointsExample", "EndpointsExample\EndpointsExample.csproj", "{CFF7AB66-EC70-4019-A2C0-C70C7193DD62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D07A6FA9-B814-4983-ABED-8E5334CF2C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07A6FA9-B814-4983-ABED-8E5334CF2C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07A6FA9-B814-4983-ABED-8E5334CF2C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF7AB66-EC70-4019-A2C0-C70C7193DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF7AB66-EC70-4019-A2C0-C70C7193DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF7AB66-EC70-4019-A2C0-C70C7193DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF7AB66-EC70-4019-A2C0-C70C7193DD62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
