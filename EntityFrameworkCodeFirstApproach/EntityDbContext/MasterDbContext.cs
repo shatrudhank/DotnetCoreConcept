@@ -15,7 +15,12 @@ namespace EntityFrameworkCodeFirstApproach.EntityDbContext
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Company>().ToTable(nameof(Company));
-            modelBuilder.Entity<Country>().ToTable(nameof(Country));
+            modelBuilder.Entity<Country>().ToTable(nameof(Country),"dbo");
+
+            modelBuilder.Entity<Company>().Property(x => x.Name)
+                .HasColumnName("CompanyName")
+                .HasColumnType("nvarchar(30)")
+                .HasDefaultValue("A");
         }
     }
 }
