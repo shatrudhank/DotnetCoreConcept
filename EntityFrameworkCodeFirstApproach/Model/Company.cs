@@ -18,5 +18,7 @@ namespace EntityFrameworkCodeFirstApproach.Model
 
         public Country Country { get; set; }
 
+        public int CountryCode {  get; set; }
+
     }
 }

@@ -21,6 +21,11 @@ namespace EntityFrameworkCodeFirstApproach.EntityDbContext
                 .HasColumnName("CompanyName")
                 .HasColumnType("nvarchar(30)")
                 .HasDefaultValue("A");
+
+            //Unique Constraint
+            modelBuilder.Entity<Country>().HasIndex(x => x.Name).IsUnique();
+
+            modelBuilder.Entity<Company>().HasCheckConstraint("Chk_Code", "len([CountryCode])=2");
         }
     }
 }
