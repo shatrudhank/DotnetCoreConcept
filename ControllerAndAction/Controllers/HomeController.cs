@@ -11,6 +11,7 @@ namespace ControllerAndAction.Controllers
         [Route("/home")]
         public string Index()
         {
+
             return "Hello from controller";
         }
 
