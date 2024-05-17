@@ -1,0 +1,1 @@
+Install EntityframeworkCore.SqlServer, EntityframeworkCore.Tool
