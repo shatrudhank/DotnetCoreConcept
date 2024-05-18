@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControllerAndAction", "Cont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelBinding", "ModelBinding\ModelBinding.csproj", "{D880C349-BCBB-437D-AF68-CD3DB6901702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCodeFirstApproach", "EntityFrameworkCodeFirstApproach\EntityFrameworkCodeFirstApproach.csproj", "{CBDFB141-F87B-40E8-912E-BCD472491742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCodeFirstApproach", "EntityFrameworkCodeFirstApproach\EntityFrameworkCodeFirstApproach.csproj", "{CBDFB141-F87B-40E8-912E-BCD472491742}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51C8C0FD-DF75-41A3-A519-0895940C737E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
